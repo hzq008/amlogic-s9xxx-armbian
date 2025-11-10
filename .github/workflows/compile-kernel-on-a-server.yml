@@ -54,10 +54,10 @@ on:
       kernel_package:
         description: "Select compile package list"
         required: false
-        default: "all"
+        default: "deb"
         type: choice
         options:
-          - all
+          - deb
           - dtbs
       kernel_toolchain:
         description: "Select the compilation toolchain"
